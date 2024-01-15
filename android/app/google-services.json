@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978452785483",
+    "project_id": "tubes-85e17",
+    "storage_bucket": "tubes-85e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978452785483:android:363cd152af5aa414f520ce",
+        "android_client_info": {
+          "package_name": "com.example.authenticationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrTkKv9T2f7oz8xsaaa0YHKRfeL8u2SW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
