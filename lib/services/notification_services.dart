@@ -61,9 +61,10 @@ class NotifyHelper {
       _convertTime(hour, minutes),
       const NotificationDetails(
         android: AndroidNotificationDetails(
-          'your_channel_id', // perhatikan bahwa ini harus sesuai dengan ID channel Anda
-          'your_channel_name',
-        ),
+            'your_channel_id', // perhatikan bahwa ini harus sesuai dengan ID channel Anda
+            'your_channel_name',
+            importance: Importance.max,
+            priority: Priority.high),
       ),
       androidAllowWhileIdle: true,
       uiLocalNotificationDateInterpretation:

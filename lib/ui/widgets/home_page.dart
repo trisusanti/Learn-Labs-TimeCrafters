@@ -65,10 +65,12 @@ class _HomePageState extends State<HomePage> {
           itemCount: _taskController.taskList.length,
           itemBuilder: (_, index) {
             Task task = _taskController.taskList[index];
-            DateFormat format = DateFormat("hh:mm a");
-            DateTime date = format.parse(task.startTime.toString());
-            var myTime = DateFormat("HH:mm").format(date);
-            print("My Time: $myTime");
+            var myTime = task.startTime.toString().split(" ")[0];
+            if (task.startTime.toString().length > 5) {
+              DateFormat format = DateFormat("hh:mm a");
+              DateTime date = format.parse(task.startTime.toString());
+              myTime = DateFormat("HH:mm").format(date);
+            }
             notifyHelper.scheduledNotification(
                 int.parse(myTime.toString().split(":")[0]),
                 int.parse(myTime.toString().split(":")[1]),
