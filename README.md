@@ -1,7 +1,11 @@
-# LearnLabs-TimeCrafters
+# LearnLabs
 
-An To-Do lis application made using Flutter
+Aplikasi "LearnLabs" adalah aplikasi yang dirancang khusus untuk membantu mahasiswa dalam mengelola jadwal mata kuliah dan tugas akademis mereka. Aplikasi ini dibuat menggunakan Firebase dan SQLite. Dibuatnya aplikasi diharapkan meningkatkan efisiensi dan keteraturan dalam mengelola kegiatan belajar.
 
+# Contributors
+- Divara Anaba F.  3.34.22.1.06
+- Tri Susanti      3.34.22.1.21
+  
 ## Getting Started
 
 This project is a starting point for a Flutter application.
