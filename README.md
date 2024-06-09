@@ -1,6 +1,6 @@
 # LearnLabs-TimeCrafters
 
-A new Flutter project.
+An To-Do lis application made using Flutter
 
 ## Getting Started
 
